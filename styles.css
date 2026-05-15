@@ -482,7 +482,7 @@ section {
 }
 
 .info-title {
-    align-items: center
+    align-items: center;
     font-size: 1.5rem;
     margin-bottom: 1rem;
     color: var(--primary-color);
@@ -505,7 +505,7 @@ section {
 }
 
 .skills-container {
-    align-items: center
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
