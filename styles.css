@@ -482,7 +482,6 @@ section {
 }
 
 .info-title {
-    align-items: center;
     font-size: 1.5rem;
     margin-bottom: 1rem;
     color: var(--primary-color);
@@ -491,13 +490,14 @@ section {
 }
 
 .info-title::after {
-    content: '';
+    content: "";
     position: absolute;
+    left: 50%;
     bottom: -5px;
-    left: 0;
-    width: 50%;
+    transform: translateX(-50%);
+    width: 60%;
     height: 2px;
-    background-color: var(--accent-color);
+    background-color: var(--primary-color);
 }
 
 .info-item {
